@@ -64,9 +64,25 @@ header {
 
 
 @media (min-width: 768px) {
-
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .btn-ios:active {
+        background-color: #5DCCBB;
+    }
+    .btn-mac:hover {
+        background-color: #8897FF;
+    }
 }
 
 @media (min-width: 992px) {
-
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
 }
