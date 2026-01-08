@@ -1,18 +1,66 @@
+body {
+    font-family: bai jamjuree;
+}
+
 header {
     background-image: url(/images/bg-header-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    height: 300px;
-}
+    height: 250px;
 
+}
 .logo {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-
 }
+.hero-content {
+    text-align: center;
+    padding-top: 0;
+}
+.hero-content h1 {
+    color:#4C545C;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
+.hero-content p {
+    color:#9EABB2;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.btn-ios {
+    background-color: #26BBA4;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    border-radius: 28px;
+    padding: 10px 56px;
+    border:none;
+}
+.btn-mac {
+    background-color: #6174FF;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    border-radius: 28px;
+    padding: 10px 56px;
+    border:none;
+}
+
 
 
 @media (min-width: 768px) {
