@@ -172,6 +172,18 @@ header {
     line-height: 150%;
     letter-spacing: -0.15px;
 }
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-company {
+    margin-top: 40px;
+    margin-bottom: 56px;
+    max-width: 80%;
+    height: auto;
+}
 
 @media (min-width: 768px) {
     .btn {
@@ -217,6 +229,13 @@ header {
         justify-content: center;
         align-items: center;
         gap: 60px;
+    }
+    .logo-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
     }
 }
 
