@@ -16,18 +16,18 @@ header {
     justify-content: center;
     padding-top: 60px;
 }
-.hero-content {
+.cta-block {
     text-align: center;
     padding-top: 0;
 }
-.hero-content h1 {
+.cta-block h1 {
     color:#4C545C;
     font-size: 32px;
     font-weight: 600;
     line-height: 125%;
     letter-spacing: -0.5px;
 }
-.hero-content p {
+.cta-block p {
     color:#9EABB2;
     font-size: 16px;
     line-height: 150%;
