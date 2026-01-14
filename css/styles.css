@@ -1,8 +1,6 @@
 body {
     font-family: bai jamjuree;
-
 }
-
 header {
     background-image: url(/images/bg-header-mobile.png);
     background-size: cover;
@@ -279,7 +277,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between
+        justify-content: space-between;
     }
     .footer-links {
         max-width: 500px;
@@ -297,36 +295,19 @@ footer {
         margin-top: 0;
         width: calc(50% - 30px);
     }
-    .footer-sociaux-links {
+    .footer-social-links {
         margin-top: 0;
         display: flex;
         align-items: center;
     }
-    .footer-sociaux-links img {
+    .footer-social-links img {
         display: block;
 
     }
     .footer-links a:hover {
         color: #26BBA4;
     }
-    .footer-sociaux-links a:hover {
+    .footer-social-links a:hover {
         color: #26BBA4;
     }
     }
-
-
-
-@media (min-width: 992px) {
-    .btn {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
-    .btn-ios:hover {
-        background-color: #5DCCBB;
-    }
-    .btn-mac:hover {
-        background-color: #8897FF;
-    }
-}
