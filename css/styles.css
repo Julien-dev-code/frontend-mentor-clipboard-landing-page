@@ -38,6 +38,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-top: 40px;
 }
 .btn-ios {
     background-color: #26BBA4;
@@ -179,10 +180,38 @@ header {
     align-items: center;
 }
 .logo-company {
-    margin-top: 40px;
-    margin-bottom: 56px;
+    margin-top: 50px;
+    margin-bottom: 60px;
     max-width: 80%;
     height: auto;
+}
+footer {
+    margin-top: 80px ;
+    background-color: #F5F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links a {
+    margin-top: 24px;
+    color: #4C545C;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.15px;
+}
+.footer-sociaux-links {
+    margin-top: 32px;
+}
+.footer-sociaux-links img {
+    padding-left: 30px;
 }
 
 @media (min-width: 768px) {
@@ -237,7 +266,55 @@ header {
         align-items: center;
         gap: 90px;
     }
-}
+    footer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+    
+    }
+    .footer-container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+    .footer-links {
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px 60px;
+    }
+    .logo img {
+        display: block;
+    }
+    .footer-links a {
+        margin-top: 0;
+        width: calc(50% - 30px);
+    }
+    .footer-sociaux-links {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    .footer-sociaux-links img {
+        display: block;
+
+    }
+    .footer-links a:hover {
+        color: #26BBA4;
+    }
+    .footer-sociaux-links a:hover {
+        color: #26BBA4;
+    }
+    }
+
+
 
 @media (min-width: 992px) {
     .btn {
